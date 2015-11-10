@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jpm.dg"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="jpm.dg.HomeScreen"
+            android:label="@string/title_home_screen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jpm.dg.TextHideScreen"
+            android:label="@string/title_text_hide_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="jpm.dg.TextRetrieveScreen"
+            android:label="@string/title_text_retrieve_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="jpm.dg.ImageHideScreen"
+            android:label="@string/title_image_hide_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="jpm.dg.ImageRetrieveScreen"
+            android:label="@string/title_image_retrieve_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

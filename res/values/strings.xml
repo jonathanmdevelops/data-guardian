@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Data Guardian</string>
+    <string name="app_summary">Data Guardian allows you to store sensitive information in a 
+        completely inconspicuous manner - inside images.\n\nHide both text and other images 
+        inside images and store them in your Personal folder to retrieve later.</string>
+    <string name="title_home_screen">Data Guardian</string>
+    <string name="title_text_hide_screen">Hide Text in Image</string>
+    <string name="title_image_hide_screen">Hide Image in Image</string>
+    <string name="title_text_retrieve_screen">Retrieve Text from Image</string>
+    <string name="title_image_retrieve_screen">Retrieve Image from Image</string>
+    <string name="selected_image_desc">User selected image.</string>
+    <string name="encrypt_button_desc">Locked padlock image.</string>
+    <string name="decrypt_button_desc">Unlocked padlock image.</string>
+    <string name="retrieve_desc">Retrieved Image</string>
+    <string name="hide">Hide Information</string>
+    <string name="retrieve">Retrieve Information</string>
+    <string name="hide_button_text">Hide Data</string>
+    <string name="hide_hint">Secret Text</string>
+    <string name="image_hint">Tap to Change</string>
+    <string name="retrieved_text">Retrieved Text:</string>
+    <string name="new_image">New Image</string>
+    <string name="filename">Filename \n(.png): </string>
+    <string name="encrypt_text">Encrypt Text</string>
+    <string name="password">Password: </string>
+    <string name="security">Security Level: Minimum</string>
+    <string name="about">About</string>
+    <string name="host_image">Cover Image:</string>
+    <string name="secret_image">Secret Image:</string>
+    <string name="iconography">Iconography</string>
+    <string name="change_pass">Password</string>
+    <string name="save_image">Save Image</string>
+    <string name="icon_sources">Launcher and lock icons by WebDesignerDepot
+\n\nText icon by O. Scholtz
+\n\nCamera and Dialog icons by Snip Master</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/boundary"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/hideText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/boundary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/hide" />
+
+    <ImageButton
+        android:id="@+id/encryptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hideText"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/lock"
+        android:contentDescription="@string/encrypt_button_desc"
+        android:src="@drawable/lock_selector" />
+
+    <ImageButton
+        android:id="@+id/decryptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boundary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/lock_open"
+        android:contentDescription="@string/decrypt_button_desc"
+        android:src="@drawable/lock_open_selector" />
+
+    <TextView
+        android:id="@+id/discoverText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/decryptButton"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="@string/retrieve" />
+
+</RelativeLayout>
